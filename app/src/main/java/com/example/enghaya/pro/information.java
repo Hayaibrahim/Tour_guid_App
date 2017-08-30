@@ -4,7 +4,7 @@ package com.example.enghaya.pro;
  * Created by ENG.HAYA on 8/29/2017 AD.
  */
 
-class information {
+public class information {
 
     private String Name;
     private String Address;
