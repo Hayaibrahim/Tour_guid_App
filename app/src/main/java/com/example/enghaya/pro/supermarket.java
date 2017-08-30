@@ -15,6 +15,7 @@ public class supermarket extends Fragment {
     public supermarket() {
         // Required empty public constructor
     }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -26,7 +27,7 @@ public class supermarket extends Fragment {
         info.add(new information(getString(R.string.supermarketname), "", getString(R.string.supermarketlocation2)));
 
         ListView listView = (ListView) View.findViewById(R.id.supermarketid);
-        adapter adapter = new adapter(View.getContext(), info);
+        InformationAdapter adapter = new InformationAdapter(View.getContext(), info);
         listView.setAdapter(adapter);
 
         return View;

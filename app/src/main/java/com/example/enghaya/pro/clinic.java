@@ -12,13 +12,15 @@ import java.util.ArrayList;
 
 public class clinic extends Fragment {
     public static final String NAME = "clinic";
+
     public clinic() {
     }
+
     @Override
-    public void onCreate(Bundle savedInstanceState)
-    {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
     }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -28,9 +30,8 @@ public class clinic extends Fragment {
         info.add(new information(getString(R.string.clinicname1), "", getString(R.string.cliniclocation1)));
 
         ListView listView = (ListView) View.findViewById(R.id.clinicid1);
-        adapter adapter = new adapter(View.getContext(), info);
+        InformationAdapter adapter = new InformationAdapter(View.getContext(), info);
         listView.setAdapter(adapter);
         return View;
     }
-
 }

@@ -25,13 +25,13 @@ public class university extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-         View View = inflater.inflate(R.layout.fragment_university, container, false);
+        View View = inflater.inflate(R.layout.fragment_university, container, false);
 
         ArrayList<information> info = new ArrayList<>();
-        info.add(new information(getString(R.string.unversityname), "", getString(R.string.unversityaddress) ));
-        info.add(new information(getString(R.string.unversityname), "", getString(R.string.supermarketlocation2) ));
+        info.add(new information(getString(R.string.unversityname), "", getString(R.string.unversityaddress)));
+        info.add(new information(getString(R.string.unversityname), "", getString(R.string.supermarketlocation2)));
         ListView listView = (ListView) View.findViewById(R.id.unversityid);
-        adapter adapter = new adapter(View.getContext(), info);
+        InformationAdapter adapter = new InformationAdapter(View.getContext(), info);
         listView.setAdapter(adapter);
 
         return View;

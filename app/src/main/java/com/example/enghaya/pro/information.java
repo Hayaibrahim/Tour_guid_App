@@ -28,7 +28,6 @@ class information {
         return Name;
     }
 
-
     public String getAddress() {
         return Address;
     }
@@ -41,19 +40,4 @@ class information {
         return pic;
     }
 
-    public void setName(String name) {
-        Name = name;
-    }
-
-    public void setAddress(String address) {
-        Address = address;
-    }
-
-    public void setLocation(String location) {
-        this.location = location;
-    }
-
-    public void setPic(int pic) {
-        this.pic = pic;
-    }
 }

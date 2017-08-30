@@ -1,12 +1,4 @@
 <resources>
     <!-- Title for the application. [CHAR LIMIT=12] -->
-    <string name="app_name">Enkhuizen municipality</string>
-    <string name="restaurants">Restaurants</string>
-    <string name="museums">Museums</string>
-    <string name="historical_sites">Historical sites</string>
-    <string name="hotels">Hotels</string>
-    <string name="phone_number">Phone number</string>
-    <string name="website">Website</string>
-    <string name="address">Address</string>
-    <string name="location">Location</string>
+
 </resources>

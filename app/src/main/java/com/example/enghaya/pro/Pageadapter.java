@@ -10,16 +10,16 @@ import android.support.v4.app.FragmentPagerAdapter;
  */
 
 public class Pageadapter extends FragmentPagerAdapter {
-     private final int Tab = 4;
+    private final int Tab = 4;
     private Context mContext;
 
     private String activity[] = new String[]{
             clinic.NAME,
             university.NAME,
             supermarket.NAME,
-             };
+    };
 
-     public Pageadapter(FragmentManager fm, Context context) {
+    public Pageadapter(FragmentManager fm, Context context) {
         super(fm);
         mContext = context;
     }
@@ -48,6 +48,7 @@ public class Pageadapter extends FragmentPagerAdapter {
         }
         return fragment;
     }
+
     @Override
     public CharSequence getPageTitle(int position) {
         // Generate title based on item position
