@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Tour guide</string>
+
+
+    <string name="supermarketname">lolo Hayper</string>
+    <string name="supermarketlocation">alRiyadh ,,EXIT 14</string>
+    <string name="supermarketaddress">Lulu Hypermarket (stylized as LuLu Hypermarket) is a hypermarket chain and retail venture started by Lulu Group International in 2000. M. A. Yousuf Ali is the managing director of the group that is based in Abu Dhabi. LuLu has over 35,600 employees of various nationalities It is one of the largest retail chains in Asia and is the biggest in Middle East with 128 outlets in the Gulf Cooperation Council (GCC) countries. They also have 13 malls all over the GCC and India with a mall planned to come up in Malaysia which after opening will be the largest mall in Malaysia. Research firm Deloitte, recently placed it amongst the world’s 50 fastest growing retailers </string>
+    <string name="supermarketlocation2">alRiyadh ,,Exit 5</string>
+
+    <string name="unversityname">Princess Nourah Bint Abdulrahman University </string>
+    <string name="unversitylocation">alRiyadh , , narjes ,, king khalid airpotr </string>
+    <string name="unversityaddress"> is a public women’s university located in Riyadh, the capital of Saudi Arabia. It is the largest university for women in the world. The university offers diplomas, bachelor and postgraduate degrees. It has over 60,000 students in 34 colleges in the city of Riyadh and in the neighbouring cities, a preparatory year program for all first year undergraduate students, an Arabic Language Institute (for non-speakers of Arabic), a Deanship of Community Service and Continuous Education, and a Community College. It has more than 5000 academic and administrative staff </string>
+
+
+
+    <string name="coffeeshopname">Coffee Shop Company</string>
+    <string name="coffeeshoplocation">Prince Mohammed Bin Abdul Aziz Street, Sulaymaniyah, Riyadh</string>
+
+    <string name="coffeeshopname1"> java Coffee </string>
+    <string name="coffeeshoplocation1">Riyadh ,, EXIT 16 </string>
+
+
+    <string name="clinicname"> Rafal clinic </string>
+    <string name="cliniclocation">Riyadh ,, EXIT 15 ,, Harun al-Rashid Road, al-Fayhaa </string>
+
+    <string name="clinicname1"> NOVA clinic </string>
+    <string name="cliniclocation1">Riyadh ,, EXIT 15 ,, Harun al-Rashid Road, al-Fayhaa </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>
